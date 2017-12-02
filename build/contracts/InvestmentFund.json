@@ -1,0 +1,144 @@
+{
+  "contract_name": "InvestmentFund",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "withdraw",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Transfer",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x60606040526000805460ff1916600e179055341561001c57600080fd5b5b6102b08061002c6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632e1a7d4d8114610048578063b6b55f2514610060575b600080fd5b341561005357600080fd5b61005e600435610078565b005b341561006b57600080fd5b61005e60043561017b565b005b600080821161008657600080fd5b600160a060020a03331660009081526001602052604090206002015460ff1615156100b057600080fd5b600160a060020a033316600090815260016020526040902054829010156100d657600080fd5b60005460ff16620151800262ffffff166100ee61027f565b600160a060020a03331660009081526001602081905260409091200154919003901190508061011c57600080fd5b600160a060020a03338116600081815260016020526040908190208054869003905590913016907fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a35b5050565b6000811161018857600080fd5b600160a060020a03331660009081526001602052604090206002015460ff16156101cf57600160a060020a0333166000908152600160205260409020805482019055610234565b6060604051908101604052808281526020016101e961027f565b815260016020918201819052600160a060020a033316600090815291526040902081518155602082015181600101556040820151600291909101805460ff1916911515919091179055505b30600160a060020a031633600160a060020a03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8360405190815260200160405180910390a35b50565b425b905600a165627a7a723058207d7228a95e2f95474c0eabf227ab8412b34bacb7737b317447baad04fae9ac330029",
+  "networks": {
+    "1508671208875": {
+      "links": {},
+      "events": {
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "updated_at": 1508671303207
+    },
+    "1508671374201": {
+      "events": {
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x0230b27718c72107c1457b88f4f8ef5b5673f1e6",
+      "updated_at": 1508671414766
+    },
+    "1509895248061": {
+      "events": {
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x0cec3ef07e01059be2e7857f64d76fefb388b8f3",
+      "updated_at": 1509895254613
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1509911129762
+}
